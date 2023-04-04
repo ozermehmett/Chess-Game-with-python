@@ -86,8 +86,6 @@ def goruntule():    #tahtayı görüntüleyen fonk
                             screen.blit(bF, (index*i+10,index*j+10))
 goruntule()
 
-pygame.draw.ellipse(screen,(255,246,143),[20,20,2,20],0)
-
 pygame.display.update()
 
 while True:
